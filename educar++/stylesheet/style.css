@@ -1,0 +1,39 @@
+body{
+    background-color: brown;
+    background-size: cover;
+}
+header{
+    background-color: blueviolet; /* l: header acima do menu*/
+    padding: 15px; /* l: borda do conteudo com a box*/
+}
+.menu{
+    background-color: rgb(36, 185, 56); /* lola: menu  */
+     /* l: largura máxima do menu */
+    position: sticky;
+    margin: auto;
+    font-size: 40PX;
+    
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li:hover{
+    background-color: rgb(38, 90, 45);
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 100px;
+    color: aquamarine;
+    display: block;
+}
+.section{
+    background-color: beige;
+    text-align: justify;
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+}
+img{
+    max-width: 400px;
+}
